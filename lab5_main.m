@@ -62,3 +62,9 @@ plot(t,errorEuler,'r-',t,errorOde,'b-','LineWidth',1.2);
 xlabel('t, s'); ylabel('Numerical minus analytical, V'); grid on;
 legend('Euler error','ode45 error','Location','best');
 end
+
+% Keep plots readable when MATLAB uses a dark theme.
+set(findall(groot,'Type','figure'),'Color','w');
+set(findall(groot,'Type','axes'),'Color','w','XColor','k','YColor','k');
+set(findall(groot,'Type','legend'),'Color','w','TextColor','k');
+set(findall(groot,'Type','text'),'Color','k');
