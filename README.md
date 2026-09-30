@@ -21,6 +21,8 @@ Pradinė būsena PDF nenurodyta. Laikoma, kad kondensatorius iškrautas, o ritė
 
 Šaltinis: dėstytojo pateikti `DiffEqs.pdf` ir `Euler.m`.
 
+Pagrindinis skriptas iš tikrųjų kviečia atskirą `Euler()` funkciją iš pateikto `Euler.m`. Išlaikytas Eulerio žingsnis, numatytieji N ir y0 argumentai bei papildomų parametrų perdavimas per `varargin`. Pridėtas tik išankstinis rezultatų masyvo rezervavimas.
+
 ## Paleidimas
 
 Atidarykite [lab5_main.m](lab5_main.m) ir paspauskite **Run**. [Euler.m](Euler.m) turi būti tame pačiame aplanke. Funkcijai `dsolve()` reikalingas **Symbolic Math Toolbox**. Jei jo nėra, skriptas naudoja tas pačias analitines eksponentines formules ir praneša, kad `dsolve()` nebuvo vykdyta.
